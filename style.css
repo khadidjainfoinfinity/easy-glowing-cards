@@ -25,7 +25,7 @@ body{
 
 .box{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -35,7 +35,7 @@ body{
 .top,
 .bottom{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -49,6 +49,7 @@ body{
     background: #222;
     position: relative;
     color: aliceblue;
+    min-width: 340px
 }
 
 .card::before{
